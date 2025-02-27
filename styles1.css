@@ -28,8 +28,6 @@ body {
     gap: 5px;
 }
 .menu {
-    display: flex;
-    vertical-align: top;
     width: 30%;
     padding: 20px;
     border-radius: 30px;
