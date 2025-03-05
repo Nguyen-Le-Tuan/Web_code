@@ -3,3 +3,44 @@ body {
     background-color: white;
 }
 
+.container{
+    width: 100%;
+    background-color: rgb(108, 104, 104);
+}
+
+.header{
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: width;
+}
+
+.menu{
+    padding: 10px;
+    width: 25%;
+    flex-direction: column;
+    background-color: rgb(161, 156, 156);
+}
+
+.content{
+    padding: 10px;
+    width: 75%;
+    background-color: white;
+}
+
+.footer{
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+#introduce{
+    font-weight: bold;
+}
