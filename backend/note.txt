@@ -1,0 +1,15 @@
+get: lấy dữ liệu
+post: ycau tạo dữ liệu
+push back: thêm dữ liệu
+delete: xoá
+
+Mỗi cái có HTTP code khác nhau (HTTP response tailor code)
+status: 200 là get thành công, 300: lỗi từ client, 400: lỗi từ server.
+
+*Back end là xử lí và trả về các lỗi trên*
+
+Mối quan hệ 1-nhiều, nhiều-nhiều, và 1-1
+SQL và nonSQL => SQL truy xuất chậm hơn nhưng chính xác và an toàn; nonSQL thì ngược lại 
+(k hẳn là k chính xác, mà k có ràng buộc để bắt buộc mọi thứ đi theo hướng chính xác: lỗi này nọ thì chỉ SQL mới handle ví dụ như app ngân hàng).
+Redis rất nhanh nhưng không có bảo mật.
+
